@@ -10,6 +10,17 @@
 		Data de Nascimento:<br>
 		<input type="text" name="birth">
 		<br>
+		<input type="radio" name="underage" value="Yes" id="u_age">Yes
+		<br>
+		<input type="radio" name="underage" value="No">No
+		<script>
+			function chked(){
+				if(document.getElementById("u_age").checked == true){
+					document.write("<input type=\"text\" name=\"resp\"<br>");	
+				}
+			}
+		</script>
+		
 	</form>
 
 </html>
