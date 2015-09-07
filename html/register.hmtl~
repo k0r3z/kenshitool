@@ -1,0 +1,15 @@
+<html>
+
+	<form class="reg_form" action="../../php/register.php" method="POST">
+		First Name:<br>
+		<input type="text" name="name">
+		<br>
+		Last Name:<br>
+		<input type="text" name="l_name">
+		<br>
+		Data de Nascimento:<br>
+		<input type="text" name="birth">
+		<br>
+	</form>
+
+</html>
