@@ -13,6 +13,10 @@ $phone = $_POST['phone'];
 $rank = $_POST['rank'];
 $clas = $_POST['clas'];
 
+if($resp == NULL){
+	$resp = 'not apply';
+}
+
 $sqlq = "INSERT INTO kenshi (name, lastname, resp, birth, areacode, phone, rank, class) VALUES ($name, $l_name, $resp, $birth, $a_code, $phone, $rank, $clas)";
 
 if ($conn->query($sqlq) === TRUE) {
