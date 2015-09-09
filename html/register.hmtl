@@ -15,8 +15,8 @@
 		<input type="radio" name="underage" value="No">No
 		<br>
 		Telphone number:<br>
-		<input type="number" name="a_code">
-		<input type="number" name="phone">
+		<input type="text" name="a_code" size="3">
+		<input type="text" name="phone" size="10">
 		<br>
 		Rank:<br>
 		<select name="rank">
@@ -33,10 +33,11 @@
 		</select>	
 		<br>
 		Class:<br>
-		<select>
+		<select name="clas">
 			<option value="Student"> Student </option>
 			<option value="Sensei"> Sensei </option>
 		</select>
+		<br>
 		Photo (Only .jpg images supported):<br>
 		<input type="file" name="photo" id="photo">
 		<br>
